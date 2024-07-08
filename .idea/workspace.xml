@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="init spring boot">
-      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/Task3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="release">
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/APITester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/Requests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/Application.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task/four/one" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
   </component>
@@ -47,9 +52,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "task/four/two",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/main/resources",
+    "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/main/java/ru/t1/summer/camp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\main\java\ru\t1\summer\camp" />
       <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\main\resources" />
     </key>
   </component>
@@ -74,7 +80,20 @@
       <command value="mvn clean  install -U -Dmaven.wagon.http.ssl.insecure=true -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Task3Test.testBase64SelfDeveloped2">
+  <component name="RunManager" selected="Application.APITester">
+    <configuration name="APITester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.t1.summer.camp.APITester" />
+      <module name="entrance-testing-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.t1.summer.camp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="entrance-testing-impl" />
       <extension name="coverage">
@@ -137,10 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task3Test.testBase64SelfDeveloped2" />
-        <item itemvalue="JUnit.Task3Test" />
-        <item itemvalue="JUnit.Task3Test.testBase64FromLib" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.Task3Test.testBase64SelfDeveloped2" />
+        <item itemvalue="JUnit.Task3Test.testBase64FromLib" />
+        <item itemvalue="JUnit.Task3Test" />
+        <item itemvalue="Application.APITester" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720463951650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="release">
+      <created>1720468482659</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720468482659</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +223,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="init spring boot" />
-    <option name="LAST_COMMIT_MESSAGE" value="init spring boot" />
+    <MESSAGE value="release" />
+    <option name="LAST_COMMIT_MESSAGE" value="release" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
