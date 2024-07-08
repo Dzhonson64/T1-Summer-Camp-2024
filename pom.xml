@@ -25,6 +25,7 @@
         <spring-cloud-starter-openfeign.version>3.0.0</spring-cloud-starter-openfeign.version>
         <log4j.version>2.15.0</log4j.version>
         <mockito.version>3.3.3</mockito.version>
+        <version-rest-assured>5.4.0</version-rest-assured>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -67,6 +68,14 @@
                 <artifactId>mockito-core</artifactId>
                 <version>${mockito.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>${version-rest-assured}</version>
+                <scope>test</scope>
+            </dependency>
+
 
             <dependency>
                 <groupId>org.mapstruct</groupId>
