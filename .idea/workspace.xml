@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="init spring boot">
+    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="add test cases for Task 3">
       <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/Task3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="SOFT" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="2iyR0LrhDgIDM9n4WfHsGRffiFa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -47,7 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "task/three",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -59,6 +61,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.47601917",
     "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vcs.patch.to.clipboard": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -152,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720460607283</updated>
-      <workItem from="1720460608726" duration="4986000" />
+      <workItem from="1720460608726" duration="5776000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1720460711452</created>
@@ -175,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720463951650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add necessary dependencies">
+      <created>1720466513608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720466513608</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add test cases for Task 3">
+      <created>1720466582257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720466582257</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +213,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="init spring boot" />
-    <option name="LAST_COMMIT_MESSAGE" value="init spring boot" />
+    <MESSAGE value="add necessary dependencies" />
+    <MESSAGE value="add test cases for Task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test cases for Task 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
