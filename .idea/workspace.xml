@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="init spring boot">
-      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/Task3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/TokenEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/pojo/Roles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +50,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "task/four/three",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/main/resources",
+    "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/main/java/ru/t1/summer/camp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\main\java\ru\t1\summer\camp" />
       <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\main\resources" />
     </key>
   </component>
