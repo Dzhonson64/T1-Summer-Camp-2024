@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="init spring boot">
-      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/Task3Test.java" afterDir="false" />
+    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="add test cases for Task 3">
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/client/T1Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/config/ClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/dto/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/dto/SetStatusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/dto/SignUpDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/utils/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/ApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/client/T1ClientTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/dataUtil/DataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/utils/EncoderTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -47,9 +57,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "task/four/one",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/main/resources",
+    "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/test/java/ru/t1/summer/camp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +74,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\test\java\ru\t1\summer\camp" />
+      <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\main\java\ru\t1\summer\camp" />
       <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.t1.summer.camp" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -74,7 +89,7 @@
       <command value="mvn clean  install -U -Dmaven.wagon.http.ssl.insecure=true -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Task3Test.testBase64SelfDeveloped2">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="entrance-testing-impl" />
       <extension name="coverage">
@@ -137,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.Task3Test.testBase64SelfDeveloped2" />
         <item itemvalue="JUnit.Task3Test" />
         <item itemvalue="JUnit.Task3Test.testBase64FromLib" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
