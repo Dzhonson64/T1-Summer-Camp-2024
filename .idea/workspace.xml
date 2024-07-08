@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="init spring boot">
-      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/Task3Test.java" afterDir="false" />
+    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="release">
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/candidate/CandidateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/candidate/CandidateControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/connectionSetter/ConnectionSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/connectionSetter/ConnectionSetterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/encoder/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/encoder/EncoderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/requestHelper/RequestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/requestHelper/RequestHelperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/responseHelper/ResponseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/responseHelper/ResponseHelperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/roles/RolesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/CandidateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/RolesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +37,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task/four/four" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
   </component>
@@ -47,9 +66,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "task/four/five",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/main/resources",
+    "last_opened_file_path": "C:/Users/KCHugunov/IdeaProjects/Innotech/SummerCamp/Entrance-testing/entrance-testing-impl/src/test/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +83,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\test\java" />
+      <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\main\java\ru\t1\summer\camp" />
       <recent name="C:\Users\KCHugunov\IdeaProjects\Innotech\SummerCamp\Entrance-testing\entrance-testing-impl\src\main\resources" />
     </key>
   </component>
@@ -175,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720463951650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="release">
+      <created>1720468984965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720468984965</updated>
+    </task>
+    <task id="LOCAL-00005" summary="release">
+      <created>1720470123054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720470123054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +231,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="init spring boot" />
-    <option name="LAST_COMMIT_MESSAGE" value="init spring boot" />
+    <MESSAGE value="release" />
+    <option name="LAST_COMMIT_MESSAGE" value="release" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
