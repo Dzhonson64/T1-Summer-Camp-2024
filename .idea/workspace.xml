@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entrance-testing-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entrance-testing-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/java/ru/t1/summer/camp/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="aca70dca-2a42-4ecc-929a-3e9453ab4c83" name="Changes" comment="init spring boot">
+      <change afterPath="$PROJECT_DIR$/entrance-testing-impl/src/test/java/ru/t1/summer/camp/Task3Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/entrance-testing-impl/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="ProjectId" id="2iyR0LrhDgIDM9n4WfHsGRffiFa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,7 +55,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.47601917",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -80,7 +74,54 @@
       <command value="mvn clean  install -U -Dmaven.wagon.http.ssl.insecure=true -DskipTests" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Task3Test.testBase64SelfDeveloped2">
+    <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="entrance-testing-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.t1.summer.camp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.t1.summer.camp" />
+      <option name="MAIN_CLASS_NAME" value="ru.t1.summer.camp.Task3Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3Test.testBase64FromLib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="entrance-testing-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.t1.summer.camp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.t1.summer.camp" />
+      <option name="MAIN_CLASS_NAME" value="ru.t1.summer.camp.Task3Test" />
+      <option name="METHOD_NAME" value="testBase64FromLib" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3Test.testBase64SelfDeveloped2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="entrance-testing-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.t1.summer.camp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.t1.summer.camp" />
+      <option name="MAIN_CLASS_NAME" value="ru.t1.summer.camp.Task3Test" />
+      <option name="METHOD_NAME" value="testBase64SelfDeveloped2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="entrance-testing-impl" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.t1.summer.camp.Application" />
@@ -96,6 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task3Test.testBase64SelfDeveloped2" />
+        <item itemvalue="JUnit.Task3Test" />
+        <item itemvalue="JUnit.Task3Test.testBase64FromLib" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
@@ -108,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720460607283</updated>
-      <workItem from="1720460608726" duration="3072000" />
+      <workItem from="1720460608726" duration="4986000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1720460711452</created>
@@ -117,16 +161,42 @@
       <option name="project" value="LOCAL" />
       <updated>1720460711452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1720463828916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720463828916</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init spring boot">
+      <created>1720463951650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720463951650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="init spring boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="init spring boot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
